@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.servimeters.inspectorsm">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InspectorSM"
+        tools:targetApi="31">
+        <activity
+            android:name=".MenuOpciones"
+            android:exported="false"
+            android:label="@string/title_activity_menu_opciones"
+            android:theme="@style/Theme.InspectorSM.NoActionBar" />
+        <activity
+            android:name=".ValidacionConstructorFinal"
+            android:exported="false" />
+        <activity
+            android:name=".GenerarActa"
+            android:exported="false"
+            android:label="@string/title_activity_generar_acta"
+            android:theme="@style/Theme.InspectorSM.NoActionBar" />
+        <activity
+            android:name=".ValidacionConstructorInicial"
+            android:exported="false" />
+        <activity
+            android:name=".EditarActaProyecto"
+            android:exported="false" />
+        <activity
+            android:name=".VerActasProyecto"
+            android:exported="false" />
+        <activity
+            android:name=".Proyecto"
+            android:exported="false" />
+        <activity
+            android:name=".ProyectosDelDia"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarioInspecciones"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/calendarioInspecciones">
+
+    <activity
+        android:id="@+id/login"
+        android:name="com.servimeters.inspectorsm.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/calendarioInspecciones"
+        android:name="com.servimeters.inspectorsm.CalendarioInspecciones"
+        android:label="activity_calendario_inspecciones"
+        tools:layout="@layout/activity_calendario_inspecciones" />
+    <activity
+        android:id="@+id/proyectosDelDia"
+        android:name="com.servimeters.inspectorsm.ProyectosDelDia"
+        android:label="activity_proyectos_del_dia"
+        tools:layout="@layout/activity_proyectos_del_dia" />
+    <activity
+        android:id="@+id/proyecto"
+        android:name="com.servimeters.inspectorsm.Proyecto"
+        android:label="activity_proyecto"
+        tools:layout="@layout/activity_proyecto" />
+    <activity
+        android:id="@+id/verActasProyecto"
+        android:name="com.servimeters.inspectorsm.VerActasProyecto"
+        android:label="activity_ver_actas_proyecto"
+        tools:layout="@layout/activity_ver_actas_proyecto" />
+    <activity
+        android:id="@+id/editarActaProyecto"
+        android:name="com.servimeters.inspectorsm.EditarActaProyecto"
+        android:label="activity_editar_acta_proyecto"
+        tools:layout="@layout/activity_editar_acta_proyecto" />
+    <activity
+        android:id="@+id/validacionConstructorFinal"
+        android:name="com.servimeters.inspectorsm.ValidacionConstructorFinal"
+        android:label="activity_validacion_constructor_final"
+        tools:layout="@layout/activity_validacion_constructor_final" />
+    <activity
+        android:id="@+id/validacionConstructorInicial"
+        android:name="com.servimeters.inspectorsm.ValidacionConstructorInicial"
+        android:label="activity_validacion_constructor_inicial"
+        tools:layout="@layout/activity_validacion_constructor_inicial" />
+    <activity
+        android:id="@+id/generarActa"
+        android:name="com.servimeters.inspectorsm.GenerarActa"
+        android:label="activity_generar_acta"
+        tools:layout="@layout/activity_generar_acta" />
+    <activity
+        android:id="@+id/menuOpciones"
+        android:name="com.servimeters.inspectorsm.MenuOpciones"
+        android:label="app_bar_menu_opciones"
+        tools:layout="@layout/app_bar_menu_opciones" />
+</navigation>
