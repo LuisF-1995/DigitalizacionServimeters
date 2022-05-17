@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".CalendarioInspecciones">
 
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="408dp"
+        android:layout_height="397dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="167dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
